@@ -1,8 +1,12 @@
 import { combineReducers } from 'redux';
-import UserListReducer from './reducer_userList';
+import TopRatedMovies from './reducer_top_rated_movies';
+import RecentlyReleasedMovies from './reducer_recently_released';
+
 
 const rootReducer = combineReducers({
-  userList: UserListReducer
+  topRatedMovies: TopRatedMovies,
+  recentlyReleasedMovies: RecentlyReleasedMovies
+  
 });
 
 export default rootReducer;

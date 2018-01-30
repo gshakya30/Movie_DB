@@ -23,6 +23,7 @@ export default class Login extends Component {
 
   handleSubmit = event => {
     event.preventDefault();
+    this.props.history.push('/home')
   }
 
   render() {

@@ -1,8 +1,42 @@
 .input-group {
-    margin: 20px 0px
+    margin: 2px 2px 20px 20px
+}
+
+.form-control {
+    margin-right : 40px
 }
 
 .navbar {
-    min-height: 80px;
+    min-height: 100px;
   }
   
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+
+  .container {
+    position: relative; 
+    max-width: 100px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+}
+
+.container .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    max-width: 273px;
+    padding: 20px; /* Some padding */
+    margin: 2px 2px 2px 2px;
+    
+}
+
+.img-responsive {
+    border-style: solid;
+    width: 100%;
+}
+
+.login-div {
+    margin-right: 90px
+}
